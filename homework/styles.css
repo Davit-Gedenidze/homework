@@ -1,0 +1,117 @@
+﻿body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a, .nav-links input {
+  color: gray;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 1em;
+}
+.nav-links a:hover, .nav-links input:hover{
+  color: white;
+}
+.Log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.basket{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nav-links input {
+  border-bottom: 1px solid white;
+}
+
+.hero {
+  height: 100vh;
+  background: url(./84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.webp) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.shop-now {
+  padding: 15px 60px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+ 
+}
+
+.shop-now:hover {
+  background: white;
+  color: black;
+}
+.socials{
+  width: 80px;
+  height: 150px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
